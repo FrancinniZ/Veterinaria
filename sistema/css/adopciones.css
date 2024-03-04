@@ -1,24 +1,4 @@
-/*
-.card {
-    position: relative;
-    width: 300px;
-    height: 200px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
-  }
-
-  <div class="input-wrapper">
-                <input type="username" id="username" required autocomplete="off" />
-                <label for="username">Enter Username</label>
-                <div class="underline"></div>
-            </div>
-  */
-
-  body {
+    body {
     display: flex;
     align-items: center;
     justify-content: center;
