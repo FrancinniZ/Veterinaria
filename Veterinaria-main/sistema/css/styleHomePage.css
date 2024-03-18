@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --red: #F26419;
+    --orange: #F6AE2D;
+    --dark-blue: #33658A;
+    --light-blue: #85BBD8;
+    --dark: #2F4858;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenedor-central {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fila-centro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alinear-izq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: var(--dark);
+}
+
+p {
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    margin: 2rem 0;
+    color: var(--dark);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+#area-imagen {
+    width: 100%;
+    height: 70vh;
+    background: url(imgs/img1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#area-imagen nav {
+    height: 10%;
+    width: 80%;
+}
+
+nav .logo {
+    color: var(--orange);
+}
+
+nav a {
+    color: var(--light-blue);
+}
+
+nav a:hover {
+    color: var(--orange);
+}
+
+.contenido {
+    height: 90%;
+    width: 80%;
+}
+
+.contenido .info {
+    width: 60%;
+    height: 100%;
+}
+
+.info h1 {
+    color: var(--light-blue);
+}
+
+.info p {
+    color: var(--light-blue);
+}
+
+.info button {
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.info button:active {
+    transform: translateY(2px);
+}
+
+.info a {
+    color: var(--dark-blue);
+    background-color: var(--orange);
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.imagen-mascota {
+    width: 40%;
+    height: 100%;
+    background: url(imgs/img3.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+img {
+    height: 30px;
+}
