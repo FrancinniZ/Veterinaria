@@ -1,7 +1,7 @@
 
 <header>
 		<div class="header">
-			<h1>Gestor de Citas</h1>
+			<h1>Veterinaria Avendano</h1>
 			<div class="optionsBar">
 				<span>|</span>
 				<span class="user"></span>
