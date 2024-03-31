@@ -1,45 +1,4 @@
-
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-body{
-	background: #ededed;
-}
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Calibri';
-    font-weight: bold;
-    letter-spacing: 1px;
-}
-h1{
-	font-size: 26px;
-}
-h2{
-	font-size: 20px;
-}
-h3{
-	font-size: 18px;
-}
-h4{
-	font-size: 16px;
-}
-h5{
-	font-size: 14px;
-}
-h6{
-	font-size: 12px;
-}
-p{
-	font-family: 'Calibri';
-	letter-spacing: 2px;
-	font-size: 14px;
-	line-height: 20px;
-}
-a{
-	text-decoration: none;
-	font-family: 'Calibri';
-	letter-spacing: 1px;
+letter-spacing: 1px;
 }
 span {
     font-family: 'Calibri';
@@ -99,7 +58,7 @@ header{
     margin-left: 30px;
 }
 nav ul{
-	background: rgb(138, 216, 180);
+	background: rgb(209, 7, 199);
 	list-style: none;
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -135,7 +94,7 @@ nav ul li:hover ul{
 	display: block;
 }
 nav li ul{
-	background: rgb(138, 216, 180);
+	background: rgb(156, 10, 124);
 	display: none;
 	flex-direction: column;
 	position: absolute;
@@ -148,7 +107,7 @@ nav li ul a{
 	border-right: initial;
 }
 nav li ul a:hover{
-	background: rgb(138, 216, 180);
+	background: rgb(199, 36, 117);
 }
 nav li ul li:last-child{
 	border-radius: 0 0 10px 10px;
@@ -157,3 +116,4 @@ nav li ul li:last-child{
 #container{
 	padding: 90px 15px 15px;
 }
+______

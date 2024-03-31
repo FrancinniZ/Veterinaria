@@ -9,13 +9,12 @@
 
 <body>
 	<?php include "header.php"; ?>
+	<br><br>	<br><br>	
 	<section id="container">
-	
-		<br>
-		<h1>Bienvenido a la veterinaria avendano </h1>
+		<?php include "Carrusel.php"; ?>
 	</section>
 	<br><br><br>
-	<?php include "Carrusel.php"; ?>
+
 	<br><br>
 </body>
 
