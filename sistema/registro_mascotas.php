@@ -1,6 +1,6 @@
 <?php
 
-include "../Semana12/bd/conexion.php";
+include "../sistema/bd/conexion.php";
 
 if(!empty($_POST)) {
 	$alert = '';
