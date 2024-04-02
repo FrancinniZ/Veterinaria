@@ -64,7 +64,7 @@ if($result > 0){
 		<input type="email" name="correo" id="correo" placeholder="Ingrese correo electronico">
 		<label for="usuario">Usuario</label>
 		<input type="text" name="usuario" id="usuario" placeholder="Ingrese usuario">
-		<label for="lave">Contraseña</label>
+		<label for="clave">Contraseña</label>
 		<input type="password" name="clave" id="clave" placeholder="Ingrese contraseña">
 		<label for="rol">Tipo de Usuario</label>
 
