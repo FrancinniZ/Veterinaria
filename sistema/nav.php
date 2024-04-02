@@ -43,8 +43,11 @@
 			<a href="#">Reportes</a>
 			<ul>
 				<li><a href="#">Nuevo Reporte</a></li>
-				<li><a href="#">Reporte</a></li>
+				<!-- <li><a href="#">Reporte</a></li> -->
 			</ul>
+		</li>
+		<li class="principal">
+			<a href="#">Contactenos</a>
 		</li>
 		<div class="optionsBar">
 			<span class="user"></span>
