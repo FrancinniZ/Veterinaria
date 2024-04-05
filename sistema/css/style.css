@@ -265,15 +265,15 @@ input, select {
 } 
 .alert{
 	width: 100%;
-	background: blue;
+	background: rgba(255, 0, 212, 0.452);
 	border-radius: 6px;
 	margin: 20px auto;
 }
 .msg_error{
-	color: red;
+	color: rgb(158, 2, 2);
 }
 .msg_save{
-	color: green;
+	color: rgb(2, 100, 2);
 }
 .alert p{
 	padding: 10px;
