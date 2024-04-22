@@ -10,9 +10,9 @@ if (!isset($_SESSION['user_id']) || $_SESSION['rol'] !== 'admin') {
 
 // Definir las credenciales de la base de datos
 $host = 'localhost';
-$db   = 'proyecto';
-$user = 'fabri'; 
-$pass = 'password'; 
+$db   = 'veterinaria';
+$user = 'root'; 
+$pass = ''; 
 $charset = 'utf8mb4';
 
 // Opciones de PDO
