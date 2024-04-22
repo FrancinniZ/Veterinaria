@@ -12,8 +12,8 @@ if (!isset($_SESSION['user_id']) || $_SESSION['rol'] !== 'admin') {
 
 $host = 'localhost';
 $db   = 'veterinaria';
-$user = 'root'; // Cambia esto por tu nombre de usuario de base de datos
-$pass = ''; // Cambia esto por tu contraseña de base de datos real
+$user = 'root'; // usuario
+$pass = '';contrasena
 $charset = 'utf8mb4';
 
 $options = [
