@@ -2,9 +2,9 @@
 session_start(); // Iniciar sesión para almacenar información del usuario
 
 $host = 'localhost';
-$db   = 'proyecto';
-$user = 'fabri';
-$pass = 'password';
+$db   = 'veterinaria';
+$user = 'root';
+$pass = '';
 $charset = 'utf8mb4';
 
 $options = [
