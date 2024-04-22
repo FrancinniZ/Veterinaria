@@ -13,7 +13,7 @@ if (!isset($_SESSION['user_id']) || $_SESSION['rol'] !== 'admin') {
 $host = 'localhost';
 $db   = 'veterinaria';
 $user = 'root'; // usuario
-$pass = '';contrasena
+$pass = '';// contrasena
 $charset = 'utf8mb4';
 
 $options = [
