@@ -1,0 +1,37 @@
+/* css/styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    /*el formulario */
+    margin: auto;
+    width: 300px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+label {
+    /*etiquetas */
+    margin-top: 1em;
+    display: block;
+}
+
+input {
+    /* campos de input */
+    margin-top: 0.5em;
+    width: calc(100% - 22px);
+    padding: 10px;
+}
+
+button {
+    /* el botón */
+    margin-top: 1em;
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
